@@ -43,7 +43,6 @@ jobs:
         rm -rf AnyKernel3/.github      
         export VERSION=123
         echo "VER=$(($VERSION + 10200))" >> $GITHUB_OUTPUT
-        cd -
     - name: GetTime
       id: get_time
       run: |
